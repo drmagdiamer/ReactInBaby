@@ -1,12 +1,12 @@
 import React from 'react';
-class ProfileLink extends React.Component{
+class ProfileLink2 extends React.Component{
     render() {
         return<p> <em>{this.props.label}</em> <a
             href={this.props.url}
             title={this.props.label}
             target="_blank" rel="noreferrer"
-        > {this.props.txt}
+        > {this.props.children}
         </a></p>
     }
 }
-export default ProfileLink;
+export default ProfileLink2;
